@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Aurora Health Clinic. View our address, phone, email, and send us a message or appointment request."
+    />
+    <title>Contact Us | Aurora Health Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Aurora Health Clinic home">
+          <span class="logo-mark">A</span>
+          <span class="logo-text">
+            <span class="logo-title">Aurora Health</span>
+            <span class="logo-subtitle">Multi‑Specialty Clinic</span>
+          </span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="about.html">About Us</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="blog.html">Blogs</a></li>
+            <li><a class="nav-link active" href="contact.html">Contact</a></li>
+            <li>
+              <a class="btn btn-primary btn-small" href="#contact-form">Book Appointment</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero section-light">
+        <div class="container">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a> / <span>Contact Us</span>
+          </nav>
+          <h1>We’re here to help</h1>
+          <p class="section-intro">
+            Reach out to book an appointment, ask a question, or get directions to our
+            clinic. Our team will get back to you as soon as possible.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="container contact-grid">
+          <section class="card contact-details" aria-label="Clinic contact details">
+            <h2>Contact details</h2>
+            <p>
+              Visit us during working hours or call our 24/7 helpline for urgent medical
+              queries.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <strong>Address:</strong><br />
+                306, 3rd floor, Saffron heights<br />
+              Jashoda Nagar, Ahmedabad<br />
+              Gujarat, India - 3882445
+              </li>
+              <li>
+                <strong>Phone:</strong>
+                <a href="tel:+917990858976">+91 7990858976</a>
+              </li>
+              <li>
+                <strong>Email:</strong>
+                <a href="mailto:care@aurorahealth.com">care@aurorahealth.com</a>
+              </li>
+            </ul>
+            <p class="section-intro">
+              <strong>Clinic hours</strong><br />
+              Monday – Saturday: 8:00 AM – 8:00 PM<br />
+              Sunday: 9:00 AM – 2:00 PM (selected departments)
+            </p>
+            <p class="section-intro">
+              <strong>Emergency support</strong><br />
+              24/7 phone triage and coordination with partner hospitals.
+            </p>
+            <p class="social-links">
+              <a href="#" aria-label="Aurora Health on Facebook">Fb</a>
+              <a href="#" aria-label="Aurora Health on Instagram">Ig</a>
+              <a href="#" aria-label="Aurora Health on LinkedIn">Ln</a>
+            </p>
+          </section>
+
+          <section id="contact-form" class="card" aria-label="Contact form">
+            <h2>Send us a message</h2>
+            <p class="section-intro">
+              Share your details and a short note — we’ll respond within one business
+              day.
+            </p>
+            <form class="form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="c-name">Name</label>
+                  <input id="c-name" type="text" name="name" required />
+                </div>
+                <div class="form-field">
+                  <label for="c-email">Email</label>
+                  <input id="c-email" type="email" name="email" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="c-phone">Phone</label>
+                  <input id="c-phone" type="tel" name="phone" required />
+                </div>
+                <div class="form-field">
+                  <label for="c-subject">Reason for contact</label>
+                  <select id="c-subject" name="subject">
+                    <option value="">Select an option</option>
+                    <option>Book an appointment</option>
+                    <option>Insurance / billing</option>
+                    <option>Medical records</option>
+                    <option>General enquiry</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="c-message">Message</label>
+                <textarea
+                  id="c-message"
+                  name="message"
+                  rows="4"
+                  required
+                  placeholder="Please include any relevant details such as preferred dates, department, or existing diagnoses."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Submit message</button>
+              <p class="form-footnote">
+                For emergencies, please call our helpline rather than using this form.
+              </p>
+            </form>
+          </section>
+        </div>
+      </section>
+
+      <section class="page-section section-light" aria-label="Map and directions">
+        <div class="container grid grid-2 align-start">
+          <div>
+            <h2>Find us easily</h2>
+            <p class="section-intro">
+              We’re located in the Jashodanagar, with convenient access to
+              public transport and parking.
+            </p>
+            <ul class="service-list">
+              <li>5‑minute walk from BRTS Bus Stop</li>
+              <li>Dedicated patient drop‑off zone at the main entrance</li>
+              <li>On‑site parking for cars, bikes, and ambulances</li>
+            </ul>
+          </div>
+          <div class="map-embed" aria-label="Google map location of Aurora Health Clinic">
+            <iframe
+              title="Aurora Health Clinic on Google Maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.0932360841653!2d72.62189397588058!3d22.983598717780264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8604f19d0c71%3A0xdf31f6e05393379a!2sSaffron%20Business%20Pk%20Rd%2C%20Jashoda%20Nagar%2C%20Ahmedabad%2C%20Gujarat%20382445!5e0!3m2!1sen!2sin!4v1765984785796!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-mark">A</span>
+            <span class="logo-text">
+              <span class="logo-title">Aurora Health</span>
+              <span class="logo-subtitle">Multi‑Specialty Clinic</span>
+            </span>
+          </a>
+          <p>
+            Premium, patient‑first healthcare with modern facilities, compassionate
+            teams, and technology that keeps you connected to your care.
+          </p>
+        </div>
+        <div class="footer-columns">
+          <div>
+            <h3>Visit Us</h3>
+            <p>
+              306, 3rd floor, Saffron heights<br />
+              Jashoda Nagar, Ahmedabad<br />
+              Gujarat, India - 3882445
+            </p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p>
+              Phone: <a href="tel:+917990858976">+91 7990858976</a><br />
+              Email: <a href="mailto:care@aurorahealth.com">care@aurorahealth.com</a>
+            </p>
+            <p class="social-links">
+              <a href="#" aria-label="Aurora Health on Facebook">Fb</a>
+              <a href="#" aria-label="Aurora Health on Instagram">Ig</a>
+              <a href="#" aria-label="Aurora Health on LinkedIn">Ln</a>
+            </p>
+          </div>
+          <div>
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Our Services</a></li>
+              <li><a href="blog.html">Health Blog</a></li>
+              <li><a href="contact.html">Contact &amp; Directions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>© <span id="year"></span> Aurora Health Clinic. All rights reserved.</p>
+          <p>
+            <a href="#">Privacy Policy</a>
+            <span aria-hidden="true">•</span>
+            <a href="#">Patient Rights &amp; Responsibilities</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const navToggle = document.querySelector(".nav-toggle");
+      const navLinks = document.querySelector(".nav-links");
+      if (navToggle && navLinks) {
+        navToggle.addEventListener("click", () => {
+          const isOpen = navLinks.classList.toggle("open");
+          navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+      }
+      const yearSpan = document.getElementById("year");
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
+</html>
+
+
