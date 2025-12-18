@@ -50,7 +50,7 @@
             <nav class="breadcrumb" aria-label="Breadcrumb">
               <a href="index.html">Home</a> / <span>About Us</span>
             </nav>
-            <h1>Putting people at the heart of healthcare</h1>
+            <h1>Putting people at the Heart of Healthcare</h1>
             <p class="section-intro">
               Aurora Health Clinic was founded on a simple belief: healthcare should be
               compassionate, accessible, and grounded in evidence‑based medicine.
@@ -67,18 +67,18 @@
           <div class="container grid grid-2 align-start">
             <article>
               <h2>Our story</h2>
-              <p>
+              <p><br>
                 Aurora Health Clinic began as a small family practice and has grown into a
                 modern, multi‑specialty center serving thousands of patients each year. Our
                 journey has been guided by one promise: treat every patient as we would our
                 own family.
               </p>
-              <p>
+              <p><br>
                 Today, our team spans internal medicine, cardiology, pediatrics,
                 gynecology, orthopedics, and more — all working together to deliver
                 coordinated, whole‑person care.
               </p>
-              <p>
+              <p><br> 
                 We continuously invest in new technology, training, and safety protocols so
                 that our patients benefit from the best of modern medicine without losing
                 the warmth of a neighborhood clinic.
@@ -139,46 +139,43 @@
                 <div class="doctor-photo">
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
-                    alt="Dr. Emily Carter, Aurora Health Clinic, Springfield"
+                    alt="Dr. Vishal mishra, Aurora Health Clinic"
                   />
                 </div>
-                <h3>Dr. Emily Carter</h3>
+                <h3>Dr. Vishal mishra</h3>
                 <p class="patient-meta">Senior Consultant, Cardiology</p>
                 <p>
                   15+ years of experience in interventional cardiology, cardiac
                   rehabilitation, and preventive heart health.
                 </p>
-                <p class="doctor-location">Aurora Health Clinic · Springfield, XY</p>
               </article>
               <article class="card doctor-card">
                 <div class="doctor-photo">
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/3660/3660043.png"
-                    alt="Dr. James Kohli, Aurora Health Clinic, Springfield"
+                    alt="Dr. Maulik patva, Aurora Health Clinic"
                   />
                 </div>
-                <h3>Dr. James Kohli</h3>
+                <h3>Dr. Maulik patva</h3>
                 <p class="patient-meta">Consultant, Internal Medicine</p>
                 <p>
                   Specializes in complex chronic disease management with a focus on
                   lifestyle‑based interventions.
                 </p>
-                <p class="doctor-location">Aurora Health Clinic · Springfield, XY</p>
               </article>
               <article class="card doctor-card">
                 <div class="doctor-photo">
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png"
-                    alt="Dr. Sara Nwosu, Aurora Health Clinic, Springfield"
+                    alt="Dr. Hemant patel, Aurora Health Clinic"
                   />
                 </div>
-                <h3>Dr. Sara Nwosu</h3>
+                <h3>Dr. Hemant patel</h3>
                 <p class="patient-meta">Consultant, Pediatrics</p>
                 <p>
                   Passionate about child development, vaccination schedules, and creating
                   anxiety‑free visits for children.
-                </p>
-                <p class="doctor-location">Aurora Health Clinic · Springfield, XY</p>
+                </p>                        
               </article>
             </div>
           </div>
@@ -204,15 +201,15 @@
             <div>
               <h3>Visit Us</h3>
               <p>
-                21 Aurora Avenue<br />
-                Greenfield Medical District<br />
-                Springfield, XY 12045
+                306, 3rd floor, Saffron heights<br />
+                Jashoda Nagar, Ahmedabad<br />
+                Gujarat, India - 3882445
               </p>
             </div>
             <div>
               <h3>Contact</h3>
               <p>
-                Phone: <a href="tel:+11234567890">+1 (123) 456‑7890</a><br />
+                Phone: <a href="tel:+917990858976">+91 7990858976</a><br />
                 Email: <a href="mailto:care@aurorahealth.com">care@aurorahealth.com</a>
               </p>
               <p class="social-links">
@@ -234,7 +231,13 @@
         </div>
         <div class="footer-bottom">
           <div class="container footer-bottom-inner">
-            <p>© <span id="year"></span> Aurora Health Clinic. All rights reserved.</p>
+            <p>
+              © <span id="year"></span> Aurora Health Clinic. All rights reserved. ||
+              Made With ❤️ by
+              <a href="https://www.linkedin.com/in/jitendra-prajapati-b3971a194/"
+                >Jitendra Prajapati</a
+              >
+            </p>
             <p>
               <a href="#">Privacy Policy</a>
               <span aria-hidden="true">•</span>
@@ -243,8 +246,9 @@
           </div>
         </div>
       </footer>
-
+  
       <script>
+        // Mobile navigation toggle
         const navToggle = document.querySelector(".nav-toggle");
         const navLinks = document.querySelector(".nav-links");
         if (navToggle && navLinks) {
@@ -253,6 +257,8 @@
             navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
           });
         }
+  
+        // Footer year
         const yearSpan = document.getElementById("year");
         if (yearSpan) {
           yearSpan.textContent = new Date().getFullYear();
